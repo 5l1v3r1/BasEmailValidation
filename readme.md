@@ -7,7 +7,6 @@ A simple GUI application for checking email accounts.
 This application will try to authorize on the provided email accounts via imap/pop3. If authorization is successful and id messages are received - the account will be marked as "good", otherwise it will be marked as "bad".
 
 # Features
-
 ## Multithreading
 
 For example, instead of one account, 10 do the same job at the same time. This is much faster, but it is recommended to use only if you have proxies.
